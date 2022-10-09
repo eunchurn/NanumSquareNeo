@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="nanumsquareneo.css" rel="stylesheet" />
+    <link href="nanumsquareneovar.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "NanumSquareNeo";
+      }
+      p {
+        margin: 7px;
+      }
+      .light {
+        font-weight: 100;
+      }
+      .regular {
+        font-weight: 300;
+      }
+      .bold {
+        font-weight: 500;
+      }
+      .extra-bold {
+        font-weight: 700;
+      }
+      .heavy {
+        font-weight: 800;
+      }
+      .variable {
+        font-family: "NanumSquareNeoVar";
+        font-weight: var(--text-weight);
+        font-variation-settings: "wght" var(--text-weight);
+      }
+      .slider {
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <h3>Light: 100</h3>
+    <p class="light">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <h3>Regular: 300</h3>
+    <p class="regular">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <h3>Bold: 500</h3>
+    <p class="bold">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <h3>ExtraBold: 600</h3>
+    <p class="extra-bold">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <h3>Heavy: 700</h3>
+    <p class="heavy">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <h3>Variable Font</h3>
+    <div class="slider-container">
+      <div class="slider-controls">
+        <label for="text-weight" class="slider-label">
+          Weight: <span class="output" data-index="0"></span>
+        </label>
+      </div>
+      <input
+        type="range"
+        min="100"
+        max="900"
+        value="300"
+        class="slider"
+        id="text-weight"
+        name="text-weight"
+        data-index="0"
+      />
+    </div>
+    <p class="variable">
+      숫자 1234567980 영문 QWERTYUIOPASDFGHJKLZXCVBNM
+      qwertyuioopasdfghjklzxcvbnm<br />
+      다람쥐 헌 쳇바퀴에 타고파!! The Quick Brown Fox Jumps Over The Lazy Dog ..
+    </p>
+    <script>
+      const container = document.querySelector(".container");
+      const sliders = document.querySelectorAll(".slider");
+      const sliderValues = document.querySelectorAll(".output");
+      sliders.forEach((slider) => {
+        const sliderIndex = slider.getAttribute("data-index");
+        const output = document.querySelector(
+          `.output[data-index="${sliderIndex}"]`
+        );
+        slider.oninput = function () {
+          container.style.setProperty(`--${this.id}`, this.value);
+          output.innerHTML = this.value;
+        };
+      });
+    </script>
+  </body>
+</html>

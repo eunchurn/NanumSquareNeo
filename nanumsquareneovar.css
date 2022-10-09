@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "NanumSquareNeoVar";
+  src: url(eot/NanumSquareNeo-Variable.eot);
+  src: url(woff/NanumSquareNeo-Variable.woff) format("woff"),
+    url(woff2/NanumSquareNeo-Variable.woff2) format("woff2");
+}
