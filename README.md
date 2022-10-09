@@ -1,4 +1,6 @@
-# Nanum Square Neo Font
+[![pages-build-deployment](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment)
+
+# Nanum Square Neo WebFont
 
 2022.10.07 네이버에서 발표한 새로운 폰트 [나눔스퀘어 네오](https://campaign.naver.com/nanumsquare_neo) 웹폰트 패키지.
 
