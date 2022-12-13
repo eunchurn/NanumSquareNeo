@@ -1,6 +1,6 @@
 {
-  "name": "nanumsquareneo",
-  "version": "0.0.5",
+  "name": "typeface-nanum-square-neo",
+  "version": "0.0.1",
   "description": "Naver Nanum Square Neo webfont package",
   "main": "nanumsquareneo.css",
   "files": [
