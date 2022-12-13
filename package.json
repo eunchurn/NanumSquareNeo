@@ -1,0 +1,39 @@
+{
+  "name": "nanumsquareneo",
+  "version": "0.0.2",
+  "description": "Naver Nanum Square Neo webfont package",
+  "main": "nanumsquareneo.css",
+  "files": [
+    "eot",
+    "ttf",
+    "woff",
+    "woff2",
+    "nanumsquareneo.css",
+    "nanumsquareneovar.css",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunchurn/NanumSquareNeo.git"
+  },
+  "keywords": [
+    "naver",
+    "nanum sqaure neo",
+    "nanum square",
+    "webfont",
+    "eot",
+    "ttf",
+    "woff",
+    "woff2"
+  ],
+  "author": "Eunchurn Park<eunchurn.park@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunchurn/NanumSquareNeo/issues"
+  },
+  "homepage": "https://github.com/eunchurn/NanumSquareNeo#readme"
+}
