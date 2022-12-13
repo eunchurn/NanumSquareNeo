@@ -1,8 +1,10 @@
 # Nanum Square Neo WebFont
 
-[![pages-build-deployment](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment) [![Publish Package to npmjs](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/publish.yml/badge.svg)](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/publish.yml) ![npm](https://img.shields.io/npm/dw/typeface-nanum-square-neo) ![npm](https://img.shields.io/npm/v/typeface-nanum-square-neo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/typeface-nanum-square-neo) ![GitHub issues](https://img.shields.io/github/issues/eunchurn/NanumSquareNeo) ![NPM](https://img.shields.io/npm/l/typeface-nanum-square-neo)
+[![pages-build-deployment](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/pages/pages-build-deployment) [![Publish Package to npmjs](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/publish.yml/badge.svg)](https://github.com/eunchurn/NanumSquareNeo/actions/workflows/publish.yml) ![npm](https://img.shields.io/npm/dw/typeface-nanum-square-neo) ![npm](https://img.shields.io/npm/v/typeface-nanum-square-neo) ![GitHub issues](https://img.shields.io/github/issues/eunchurn/NanumSquareNeo) ![NPM](https://img.shields.io/npm/l/typeface-nanum-square-neo)
 
 2022.10.07 네이버에서 발표한 새로운 폰트 [나눔스퀘어 네오](https://campaign.naver.com/nanumsquare_neo) 웹폰트 패키지.
+
+[Demo](https://eunchurn.github.io/NanumSquareNeo/)
 
 ## Usage
 
