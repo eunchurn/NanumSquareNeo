@@ -14,7 +14,7 @@
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.2/nanumsquareneo.css"
+  href="https://cdn.jsdelivr.net/npm/nanumsquareneo@0.0.5/nanumsquareneo.css"
 />
 ```
 
@@ -24,7 +24,7 @@
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.2/nanumsquareneovar.css"
+  href="https://cdn.jsdelivr.net/npm/nanumsquareneo@0.0.5/nanumsquareneovar.css"
 />
 ```
 
@@ -33,13 +33,13 @@
 - Fixed weight
 
 ```css
-@import url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.2/nanumsquareneo.css);
+@import url(https://cdn.jsdelivr.net/npm/nanumsquareneo@0.0.5/nanumsquareneo.css);
 ```
 
 - Variable weight
 
 ```css
-@import url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.2/nanumsquareneovar.css);
+@import url(https://cdn.jsdelivr.net/npm/nanumsquareneo@0.0.5/nanumsquareneovar.css);
 ```
 
 ## Font Family
